@@ -12,6 +12,7 @@ https://github.com/tomkooij/scipy2017/releases (WIP)
 
 Also, make sure that you have the next Python packages installed:
 
+* jupyter
 * NumPy
 * h5py
 * PyTables
