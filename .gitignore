@@ -96,4 +96,5 @@ structuring/
 datatypes/
 compression/
 queries/
+hdfstore/
 *h5
