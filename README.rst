@@ -17,11 +17,33 @@ Also, make sure that you have the next Python packages installed:
 * h5py
 * PyTables
 * pandas
+* matplotlib
+* cartopy
 
-For (ana)conda users an enviroment with all required packages can be created
-using the provided environment.yml::
+For (ana)conda users an enviroment (called hdf5) with all required packages
+can be created using the provided environment.yml. On windows::
+
+   > conda env create -f environment-windows.yml
+
+Activate the environment with::
+
+   > activate hdf5
+
+Or Linux/Mac::
 
    $ conda env create -f environment.yml
+   $ source activate hdf5
+
+Now run the test script::
+
+   > python test_environment.py
+
+Make the jupyter notebook server works:
+
+   > jupyter notebooks
+
+And run the 'test_environment.ipynb' notebook.
+
 
 
 Description

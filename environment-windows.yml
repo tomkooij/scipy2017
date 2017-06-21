@@ -13,3 +13,4 @@ dependencies:
   - matplotlib
   - git
   - nb_conda
+  - pyreadline
