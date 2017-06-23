@@ -44,6 +44,22 @@ Make the jupyter notebook server works::
 
 And run the 'test_environment.ipynb' notebook.
 
+Optional HDF5 1.10 enviroment (Linux/Mac only)
+----------------------------------------------
+
+To follow along with the last part HDF5 v1.10 is needed with and without
+Parallel HDF5 enabled. More on this in the tutorial. If possible create the
+an (python 2.7!) enviroment with HDF5 1.10 and h5py::
+
+    $ conda create -n hdf5_1-10 python=2.7
+    $ source activate hdf5_1-10
+    $ conda install -c cfel hdf5 h5py
+
+And for Parallel HDF5 and h5py::
+
+    $ conda create -n hdf5-mpi python=2.7
+    $ source activate hdf5_1-10
+    $ conda install -c cfel hdf5-mpi h5py-mpi mpi4py
 
 
 Description
