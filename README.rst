@@ -60,55 +60,59 @@ Outline
 
 Part One:
 
- - Meaning in layout (h5py) (20 min)
+ - Introduction (15 min)
 
-   - Tips for choosing your hierarchy
-
- - Advanced datatypes (20 min)
-
+ - Notebook 1 Using the hierarchy (10 min)
+ - Notebook 2 Advanced datatypes (20 min)
    - Homogeneous types (Arrays)
    - Compound types (Tables)
    - Nested types
-
  - Exercise on above topics (20 min)
 
 Part Two:
 
- - h5py advanced features (20 min)
-
-   - Parallelism, modern format, low level API
-
- - Exercises on above topics (20 min)
-
-Part Three:
-
- - Chunking (20 min)
+ - Notebook 3 Chunking (20 min)
 
    - How it works
    - How to properly select your chunksize
- - Queries and Selections (PyTables) (20 min)
+   - Exercise
 
-   - In-core vs Out-of-core calculations
-   - PyTables.where()
-   - Datasets vs Dataspaces
- - Exercise on above topics (20 min)
-
-Part Four:
-
- - The Starving CPU Problem (40 min)
+ - The Starving CPU Problem (15 min)
 
    - Why you should always use compression
    - Compression algorithms available
    - Choosing the correct one
- - Exercise
 
-Part Five:
+ - Notebook 4 Compression (20 min)
+   - Exercise
 
-  - Integration with pandas (HDFStore) (40 min)
+Part Three:
+
+- Notebook 5 Queries and Selections (PyTables) (20 min)
+   - PyTables.where()
+   - In-core vs Out-of-core
+   - Normalized vs Denormalized tables
+
+- Notebook 6 Indexing (15 min)
+- Notebook 7 Expressions (15 min)
+  - In-core vs Out-of-core
+
+ - Exercise on above topics (20 min)
+
+Part Four:
+
+  - Notebook 8 Integration with pandas (HDFStore) (40 min)
 
     - Storing/loading dataframes
     - Querying a serialised dataframe
     - Creating indexes for improved query times
-  - Performance tricks
-  - Exercise
+    - Performance tricks
+    - Exercise
 ​
+Part Five:
+
+  - Notebook 9 Low Level API (h5py) (15 min)
+  - Notebook 10 Parallel HDF5       (40 min)
+    - Thread-safe vs Parallel HDF5
+    - Parallel HDF5 using MPI
+    - SMWR in HDF5 1.10
