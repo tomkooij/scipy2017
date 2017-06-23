@@ -47,7 +47,7 @@ And run the 'test_environment.ipynb' notebook.
 Optional HDF5 1.10 enviroment (Linux/Mac only)
 ----------------------------------------------
 
-For notebook 10 h5py build against HDF5 v1.10 is needed with and without
+For notebook 10 h5py built against HDF5 v1.10 is needed with and without
 Parallel HDF5 enabled. More on this in the tutorial.
 
 If possible create a (python 2.7!) enviroment with HDF5 1.10 and h5py::
@@ -105,14 +105,15 @@ Part Two:
 
 Part Three:
 
-- Notebook 5 Queries and Selections (PyTables) (20 min)
+ - Notebook 5 Queries and Selections (PyTables) (20 min)
    - PyTables.where()
    - In-core vs Out-of-core
    - Normalized vs Denormalized tables
 
-- Notebook 6 Indexing (15 min)
-- Notebook 7 Expressions (15 min)
-  - In-core vs Out-of-core
+ - Notebook 6 Indexing (15 min)
+ 
+ - Notebook 7 Expressions (15 min)
+   - In-core vs Out-of-core
 
  - Exercise on above topics (20 min)
 
