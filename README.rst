@@ -47,9 +47,10 @@ And run the 'test_environment.ipynb' notebook.
 Optional HDF5 1.10 enviroment (Linux/Mac only)
 ----------------------------------------------
 
-To follow along with the last part HDF5 v1.10 is needed with and without
-Parallel HDF5 enabled. More on this in the tutorial. If possible create the
-an (python 2.7!) enviroment with HDF5 1.10 and h5py::
+For notebook 10 h5py build against HDF5 v1.10 is needed with and without
+Parallel HDF5 enabled. More on this in the tutorial.
+
+If possible create a (python 2.7!) enviroment with HDF5 1.10 and h5py::
 
     $ conda create -n hdf5_1-10 python=2.7
     $ source activate hdf5_1-10
