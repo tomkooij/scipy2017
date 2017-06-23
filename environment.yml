@@ -11,5 +11,4 @@ dependencies:
   - jupyter
   - cartopy
   - matplotlib
-  - git
   - nb_conda
