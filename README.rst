@@ -16,6 +16,7 @@ Or clone this repo::
 
 Also, make sure that you have the next Python packages installed:
 
+* python 3 
 * jupyter
 * NumPy
 * h5py
@@ -48,11 +49,17 @@ Make the jupyter notebook server works::
 
 And run the 'test_environment.ipynb' notebook.
 
+Python 3
+--------
+
+The notebooks are written and testing on python 3 only. Using python 2.7
+is possible but not recommended.
+
 Optional HDF5 1.10 enviroment (Linux/Mac only)
 ----------------------------------------------
 
-For notebook 10 h5py built against HDF5 v1.10 is needed with and without
-Parallel HDF5 enabled. More on this in the tutorial.
+For notebook 10 (Parallel HDF5) h5py built against HDF5 v1.10 is
+needed with and without Parallel HDF5 enabled. More on this in the tutorial.
 
 If possible create a (python 2.7!) enviroment with HDF5 1.10 and h5py::
 
@@ -72,9 +79,6 @@ Description
 
 HDF5 is a hierarchical, binary database format that has become the de facto standard for scientific computing. While the specification may be used in a relatively simple way (persistence of static arrays) it also supports several high-level features that prove invaluable. These include chunking, ragged data, extensible data, parallel I/O, compression, complex selection, and in-core calculations. Moreover, HDF5 bindings exist for almost every language - including two Python libraries (PyTables and h5py). This tutorial will cover HDF5 itself through the lens of both h5py and PyTables and will show how to use them in order to persist NumPy and pandas containers.
 
-This tutorial will discuss tools, strategies, and hacks for really squeezing every ounce of performance out of HDF5 in new or existing projects. It will also go over fundamental limitations in the specification and provide creative and subtle strategies for getting around them. We will also see how pandas can use HDF5 via its HDFStore module.  Overall, this tutorial will show how HDF5 plays nicely with all parts of an application making the code and data both faster and smaller.
-
-Knowledge of Python, NumPy, pandas, C or C++, and basic HDF5 is recommended but not required.
 
 Outline
 -------
@@ -128,13 +132,13 @@ Part Four:
     - Storing/loading dataframes
     - Querying a serialised dataframe
     - Creating indexes for improved query times
-    - Performance tricks
     - Exercise
-​
+    
 Part Five:
 
   - Notebook 9 Low Level API (h5py) (15 min)
   - Notebook 10 Parallel HDF5       (40 min)
+    
     - Thread-safe vs Parallel HDF5
     - Parallel HDF5 using MPI
     - SMWR in HDF5 1.10
