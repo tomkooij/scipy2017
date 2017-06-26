@@ -44,8 +44,8 @@ Or Linux/Mac::
 Now run the test script::
 
    > python test_environment.py
-
-Make the jupyter notebook server works::
+   
+Verify the jupyter notebook server works::
 
    > jupyter notebooks
 
