@@ -4,7 +4,7 @@ HDF5 take 2: h5py & PyTables (Intermediate/Advanced)
 Introduction
 ------------
 
-Here are my materials for the tutorial on Monday, July 10th, Scipy 2017.
+Here are the materials for the Scipy 2017 tutorial on Monday, July 10th.
 
 You can get the latest release of the materials here:
 
@@ -14,9 +14,11 @@ Or clone this repo::
 
     > git clone https://github.com/tomkooij/scipy2017
 
-Also, make sure that you have the next Python packages installed:
+Installation
+------------
+Make sure that you have the following Python packages installed:
 
-* python 3 
+* python 3
 * jupyter
 * NumPy
 * h5py
@@ -133,12 +135,12 @@ Part Four:
     - Querying a serialised dataframe
     - Creating indexes for improved query times
     - Exercise
-    
+
 Part Five:
 
   - Notebook 9 Low Level API (h5py) (15 min)
   - Notebook 10 Parallel HDF5       (40 min)
-    
+
     - Thread-safe vs Parallel HDF5
     - Parallel HDF5 using MPI
     - SMWR in HDF5 1.10
