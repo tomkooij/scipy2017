@@ -8,7 +8,11 @@ Here are my materials for the tutorial on Monday, July 10th, Scipy 2017.
 
 You can get the latest release of the materials here:
 
-https://github.com/tomkooij/scipy2017/releases (WIP)
+https://github.com/tomkooij/scipy2017/releases
+
+Or clone this repo::
+
+    > git clone https://github.com/tomkooij/scipy2017
 
 Also, make sure that you have the next Python packages installed:
 
@@ -111,7 +115,7 @@ Part Three:
    - Normalized vs Denormalized tables
 
  - Notebook 6 Indexing (15 min)
- 
+
  - Notebook 7 Expressions (15 min)
    - In-core vs Out-of-core
 
