@@ -89,47 +89,49 @@ Part One:
 
  - Introduction (15 min)
 
- - Notebook 1 Using the hierarchy (10 min)
- - Notebook 2 Advanced datatypes (20 min)
+ - Notebook 1 Using the hierarchy
+ - Notebook 2 Advanced datatypes
+ 
    - Homogeneous types (Arrays)
    - Compound types (Tables)
    - Nested types
- - Exercise on above topics (20 min)
+ 
+ - Exercise on above topics
 
 Part Two:
 
- - Notebook 3 Chunking (20 min)
+ - Notebook 3 Chunking
 
    - How it works
    - How to properly select your chunksize
    - Exercise
 
- - The Starving CPU Problem (15 min)
+ - The Starving CPU Problem 
 
    - Why you should always use compression
    - Compression algorithms available
    - Choosing the correct one
 
- - Notebook 4 Compression (20 min)
+ - Notebook 4 Compression 
    - Exercise
 
 Part Three:
 
- - Notebook 5 Queries and Selections (PyTables) (20 min)
+ - Notebook 5 Queries and Selections (PyTables) 
+ 
    - PyTables.where()
    - In-core vs Out-of-core
    - Normalized vs Denormalized tables
 
- - Notebook 6 Indexing (15 min)
+ - Notebook 6 Indexing 
 
- - Notebook 7 Expressions (15 min)
-   - In-core vs Out-of-core
+ - Notebook 7 Expressions 
 
- - Exercise on above topics (20 min)
+    - In-core vs Out-of-core
 
 Part Four:
 
-  - Notebook 8 Integration with pandas (HDFStore) (40 min)
+  - Notebook 8 Integration with pandas (HDFStore) 
 
     - Storing/loading dataframes
     - Querying a serialised dataframe
@@ -138,8 +140,8 @@ Part Four:
 
 Part Five:
 
-  - Notebook 9 Low Level API (h5py) (15 min)
-  - Notebook 10 Parallel HDF5       (40 min)
+  - Notebook 9 Low Level API (h5py)
+  - Notebook 10 Parallel HDF5       
 
     - Thread-safe vs Parallel HDF5
     - Parallel HDF5 using MPI
