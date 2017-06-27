@@ -1,5 +1,5 @@
-HDF5 take 2: h5py & PyTables (Intermediate/Advanced)
-====================================================
+HDF5 take 2: h5py & PyTables
+============================
 
 Introduction
 ------------
@@ -44,7 +44,7 @@ Or Linux/Mac::
 Now run the test script::
 
    > python test_environment.py
-   
+
 Verify the jupyter notebook server works::
 
    > jupyter notebooks
@@ -91,11 +91,11 @@ Part One:
 
  - Notebook 1 Using the hierarchy
  - Notebook 2 Advanced datatypes
- 
+
    - Homogeneous types (Arrays)
    - Compound types (Tables)
    - Nested types
- 
+
  - Exercise on above topics
 
 Part Two:
@@ -106,32 +106,32 @@ Part Two:
    - How to properly select your chunksize
    - Exercise
 
- - The Starving CPU Problem 
+ - The Starving CPU Problem
 
    - Why you should always use compression
    - Compression algorithms available
    - Choosing the correct one
 
- - Notebook 4 Compression 
+ - Notebook 4 Compression
    - Exercise
 
 Part Three:
 
- - Notebook 5 Queries and Selections (PyTables) 
- 
+ - Notebook 5 Queries and Selections (PyTables)
+
    - PyTables.where()
    - In-core vs Out-of-core
    - Normalized vs Denormalized tables
 
- - Notebook 6 Indexing 
+ - Notebook 6 Indexing
 
- - Notebook 7 Expressions 
+ - Notebook 7 Expressions
 
     - In-core vs Out-of-core
 
 Part Four:
 
-  - Notebook 8 Integration with pandas (HDFStore) 
+  - Notebook 8 Integration with pandas (HDFStore)
 
     - Storing/loading dataframes
     - Querying a serialised dataframe
@@ -141,7 +141,7 @@ Part Four:
 Part Five:
 
   - Notebook 9 Low Level API (h5py)
-  - Notebook 10 Parallel HDF5       
+  - Notebook 10 Parallel HDF5
 
     - Thread-safe vs Parallel HDF5
     - Parallel HDF5 using MPI
