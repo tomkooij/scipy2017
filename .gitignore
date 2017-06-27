@@ -90,6 +90,7 @@ ENV/
 
 # vagrant
 .vagrant/
+Vagrantfile
 
 # vim .swp
 *swp
