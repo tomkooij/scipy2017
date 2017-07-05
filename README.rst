@@ -43,13 +43,13 @@ Or Linux/Mac::
 
 Now run the test script::
 
-   > python test_environment.py
+   > python test_env.py
 
 Verify the jupyter notebook server works::
 
    > jupyter notebooks
 
-And run the 'test_environment.ipynb' notebook.
+And run the 'test_env.ipynb' notebook.
 
 Python 3
 --------
