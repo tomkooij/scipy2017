@@ -47,7 +47,7 @@ Now run the test script::
 
 Verify the jupyter notebook server works::
 
-   > jupyter notebooks
+   > jupyter notebook
 
 And run the 'test_env.ipynb' notebook.
 
