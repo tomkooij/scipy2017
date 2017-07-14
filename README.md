@@ -131,3 +131,4 @@ Part Five:
 >     -   Parallel HDF5 using MPI
 >     -   SMWR in HDF5 1.10
 
+[![Video registration of the tutorial](https://img.youtube.com/vi/ofLFhQ9yxCw&t/0.jpg)](https://www.youtube.com/watch?v=ofLFhQ9yxCw&t)
